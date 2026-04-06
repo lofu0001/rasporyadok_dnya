@@ -1,0 +1,106 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, lavender, white);
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: purple;
+    color: white;
+    border-bottom: 5px solid darkviolet;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#intro {
+    background-color: #f3e5f5;
+    border-left: 5px solid purple;
+}
+
+#morning {
+    background-color: #e1bee7;
+    border-left: 5px solid mediumpurple;
+}
+
+#day {
+    background-color: #ce93d8;
+    border-left: 5px solid darkorchid;
+}
+
+#evening {
+    background-color: #ba68c8;
+    border-left: 5px solid darkmagenta;
+}
+
+#tips {
+    background-color: #ab47bc;
+    color: white;
+    border-left: 5px solid indigo;
+}
+
+h2 {
+    color: purple;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: darkviolet;
+    color: white;
+    font-weight: bold;
+}
+
+body::before {
+    content: "🌸🌺🌻";
+    position: fixed;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3em;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+body::after {
+    content: "🌷🌹🌼";
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3em;
+    opacity: 0.7;
+    z-index: -1;
+}
